@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "Seed Eater",
+    "slug": "mobile-seed-eater",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icons/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/images/icons/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0a3742"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/icons/adaptive-icon.png",
+        "backgroundColor": "#0a3742"
+      }
+    },
+    "web": {
+      "favicon": "./assets/images/icons/favicon.png",
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-font"
+    ]
+  }
+}
